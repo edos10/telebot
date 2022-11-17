@@ -5,7 +5,8 @@ from telebot import TeleBot
 import sqlite3 as sql
 
 
-TOKEN = '5721236195:AAHHSjDdo5TmB6ap1pfL4q8l4cafQhg7GpA'
+"""в случае всех вопросов пишите в тг ;)"""
+TOKEN = '? писать в телеграме за токеном или вставить свой'
 bot = TeleBot(token=TOKEN)
 user_tag_id = dict()
 db = sql.connect('usernames.db', check_same_thread=False)
